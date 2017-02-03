@@ -84,7 +84,6 @@ NumbersSorted.prototype.completing = function () {
             self.position = self.numbersArray64();
             self.numbers = self.sortArray(self.numbersArray10());
             self.pointer += 15;
-            document.getElementById("pointer").innerHTML = self.pointer;
             self.paintshuffle();
             self.completing();
            }
